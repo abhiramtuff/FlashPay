@@ -1,162 +1,67 @@
-\# 🔦 FlashPay
+# FlashPay 🔦
 
+A flashlight app that somehow decided turning the flashlight off should cost ₹5.
 
+Yep. That's basically the whole idea.
 
-> A deliberately useless flashlight app that charges a fake ₹5 payment to turn the flashlight off.
+## What is this?
 
+FlashPay is a small Android app I made for a college project.
 
+You can turn your flashlight on normally. But when you try to turn it off, the app asks you to pay ₹5.
 
-FlashPay is a fun Android project built around a simple question:
+Obviously, the payment is completely fake. No actual money is involved.
 
+I just thought it would be funny to take one of the simplest features on a phone and put a completely unnecessary paywall in front of it.
 
+## How it works
 
-\*\*What if turning off a flashlight required a payment?\*\*
+1. Open the app
+2. Turn on the flashlight 🔦
+3. Try to turn it off
+4. Get hit with a ₹5 payment popup
+5. Press **PAY ₹5**
+6. The app lets you turn the flashlight off
 
+That's it.
 
+## Demo
 
-Turning the flashlight on is completely free.  
+▶️ [Watch the FlashPay demo](https://drive.google.com/file/d/1ozvqlgYtAcPgtLbXSBlthKvfoXVFAqjq/view?usp=sharing)
 
-Trying to turn it off triggers a simulated ₹5 payment flow.
+## Built with
 
+- Kotlin
+- Jetpack Compose
+- Android Camera2 API
+- Gradle
+- Android Studio
 
+## Important
 
-Don't worry — \*\*no real money is involved.\*\*
+The ₹5 payment is **not real**.
 
+The app does not connect to:
 
+- UPI
+- Google Pay
+- Banks
+- Cards
+- Payment gateways
 
-\## ✨ Features
+There is no login, backend, tracking, or anything like that.
 
+The "payment" is just a local button that changes the app's state.
 
+## Privacy
 
-\- 🔦 Turn the phone flashlight on and off
+FlashPay doesn't collect or store personal information.
 
-\- 💸 Simulated ₹5 payment flow
+It also doesn't need an internet connection.
 
-\- 🔒 Flashlight-off action is locked until the fake payment is completed
-
-\- 📱 Native Android flashlight control
-
-\- 📴 Flashlight turns off when the app loses active control
-
-\- 🔐 No real payment processing
-
-\- 🌐 Works without internet
-
-\- 🚫 No login, tracking, analytics, or backend
-
-\- 🎓 Built as a deliberately useless college project
-
-
-
-\## 🛠️ Tech Stack
-
-
-
-\- \*\*Kotlin\*\*
-
-\- \*\*Jetpack Compose\*\*
-
-\- \*\*Android Camera2 API\*\*
-
-\- \*\*Gradle\*\*
-
-\- \*\*Android Studio\*\*
-
-
-
-\## 🧠 How It Works
-
-
-
-1\. Open FlashPay.
-
-2\. Press \*\*TURN ON FLASHLIGHT\*\*.
-
-3\. The phone flashlight turns on.
-
-4\. Pressing the off button opens a fake ₹5 payment dialog.
-
-5\. Press \*\*PAY ₹5\*\*.
-
-6\. The payment is simulated locally — no actual transaction happens.
-
-7\. The flashlight can now be turned off.
-
-
-
-\## 💰 Important
-
-
-
-\*\*The ₹5 payment is completely fake.\*\*
-
-
-
-FlashPay does not connect to:
-
-
-
-\- UPI
-
-\- Credit/debit cards
-
-\- Banking apps
-
-\- Wallets
-
-\- Payment gateways
-
-\- Any financial service
-
-
-
-No financial information is collected or transmitted.
-
-
-
-\## 🔒 Privacy \& Safety
-
-
-
-FlashPay is designed to keep things simple.
-
-
-
-\- No user accounts
-
-\- No personal data collection
-
-\- No analytics
-
-\- No advertising
-
-\- No tracking
-
-\- No backend
-
-\- No network functionality
-
-\- No background services
-
-\- No auto-start
-
-\- No hidden processes
-
-
-
-The app only controls the flashlight while it is actively being used.
-
-
-
-\## 📦 Installation
-
-
+## Running it
 
 Clone the repository:
 
-
-
 ```bash
-
 git clone https://github.com/abhiramtuff/FlashPay.git
-
