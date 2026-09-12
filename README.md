@@ -6,7 +6,7 @@ Yep. That's basically the whole idea.
 
 ## What is this?
 
-FlashPay is a small Android app I made for a college project.
+FlashPay is a small Android app I made for the useless project program.
 
 You can turn your flashlight on normally. But when you try to turn it off, the app asks you to pay ₹5.
 
