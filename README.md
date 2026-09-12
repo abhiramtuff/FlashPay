@@ -27,7 +27,7 @@ That's it.
 
 ## Demo
 
-▶️ [Watch the FlashPay demo](https://drive.google.com/file/d/1ozvqlgYtAcPgtLbXSBlthKvfoXVFAqjq/view?usp=sharing)
+▶️ [Watch the FlashPay demo](https://drive.google.com/drive/folders/1orOEDTkgR3VuUy0xbVLgmaUoUS5aoruz?usp=sharing)
 
 ## Built with
 
